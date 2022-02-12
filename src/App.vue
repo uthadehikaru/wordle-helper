@@ -27,7 +27,7 @@
 
       <a
         class="ml-1"
-        href="https://github.com/Renovamen/wordle-helper"
+        href="https://github.com/uthadehikaru/wordle-helper"
         target="_blank"
       >
         <v-icon name="ri-github-line" scale="1.2" />

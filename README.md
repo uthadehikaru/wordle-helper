@@ -8,9 +8,9 @@ Coba disini: [petunjuk-katla.vercel.app](https://petunjuk-katla.vercel.app/)
 
 ## Petunjuk Penggunaan
 
-Pertama, mulai permainan [Katla](https://katla.vercel.app/) dan tebak kata pertama kamu. contoh *POWER*:
+Pertama, mulai permainan [Katla](https://katla.vercel.app/) dan tebak kata pertama kamu. contoh *BESAR*:
 
-![](screenshots/wordle-1.png)
+![](screenshots/katla-1.png)
 
 kamu akan mendapatkan petunjuk katla, ketik *POWER* di [petunjuk katla](https://petunjuk-katla.vercel.app/) seperti yang kamu masukkan di katla lalu **klik masing-masing huruf** untuk mengubah warna sesuai respon di katla :
 
@@ -20,19 +20,19 @@ kamu akan mendapatkan petunjuk katla, ketik *POWER* di [petunjuk katla](https://
 
 Setelah itu klik **enter** dan kata-kata yang terkait dengan petunjuk yang kamu masukkan akan muncul di sebelah kanan:
 
-![](screenshots/helper-1.png)
+![](screenshots/petunjuk-1.png)
 
 pilih salah satu dan masukkan di katla:
 
-![](screenshots/wordle-2.png)
+![](screenshots/katla-2.png)
 
 Jika belum sesuai, kembali masukkan di petunjuk katla:
 
-![](screenshots/helper-2.png)
+![](screenshots/petunjuk-2.png)
 
 Selamat, kamu menang:
 
-![](screenshots/wordle-success.png)
+![](screenshots/katla-menang.png)
 
 
 
