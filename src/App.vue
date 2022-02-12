@@ -14,7 +14,7 @@
 
   <header class="relative border-b border-gray-300 mb-4">
     <h1 class="text-2xl sm:text-3xl text-black font-bold my-2">
-      WORDLE HELPER
+      PETUNJUK KATLA
     </h1>
 
     <div class="absolute top-1.5 left-4 text-gray-400 flex">
@@ -205,7 +205,7 @@ const changeTileState = (tile: TileType, rowId: number) => {
 const guessWords = () => {
   if (!currentRow.value.every((tile) => tile.letter !== "")) {
     shake();
-    showMessage("Not enough letters");
+    showMessage("Kata tidak lengkap");
     return;
   }
 
@@ -213,13 +213,13 @@ const guessWords = () => {
 
   if (!allWords.includes(guess)) {
     shake();
-    showMessage("Not in word list");
+    showMessage("Tidak ada dalam KBBI");
     return;
   }
 
   if (!currentRow.value.every((tile) => tile.state)) {
     shake();
-    showMessage("Not enough states");
+    showMessage("Tidak cukup petunjuk");
     return;
   }
 

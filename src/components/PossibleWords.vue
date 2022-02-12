@@ -9,7 +9,7 @@
       <div
         class="text-lg font-medium py-2 border-b border-gray-300 w-56 mx-auto"
       >
-        Possible Words
+        Kata terkait
       </div>
       <div class="py-2 px-4">
         <div

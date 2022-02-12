@@ -1,43 +1,47 @@
-# Wordle Helper
+# Petunjuk Katla
 
-Help you solve [Wordle](https://www.powerlanguage.co.uk/wordle/) puzzles when your vocabulary failes you.
+Membantu memecahkan kuis [Katla](https://katla.vercel.app/) lebih mudah.
 
-Have fun with it here: [wordle.zxh.io](https://wordle.zxh.io)
-
+Coba disini: [petunjuk-katla.vercel.app](https://petunjuk-katla.vercel.app/)
 
 &nbsp;
 
-## How to use
+## Petunjuk Penggunaan
 
-First, start a [Wordle](https://www.powerlanguage.co.uk/wordle/) puzzle and guess your first word, for example *POWER*:
+Pertama, mulai permainan [Katla](https://katla.vercel.app/) dan tebak kata pertama kamu. contoh *POWER*:
 
 ![](screenshots/wordle-1.png)
 
-Now you get Wordle's feedback. Then, fill *POWER* in our [helper](https://wordle.zxh.io) just like you did in Wordle and **click the tile** to change its state:
+kamu akan mendapatkan petunjuk katla, ketik *POWER* di [petunjuk katla](https://petunjuk-katla.vercel.app/) seperti yang kamu masukkan di katla lalu **klik masing-masing huruf** untuk mengubah warna sesuai respon di katla :
 
-- click once: gray (absent)
-- twice: yellow (wrong spot)
-- three times: green (correct)
+- klik 1 kali: abu-abu (tidak ada)
+- dua kali: kuning (benar namun letaknya salah)
+- tiga kali: hijau (benar dan letaknya sesuai)
 
-After that, all possible words would be listed in the sidebar on the right:
+Setelah itu klik **enter** dan kata-kata yang terkait dengan petunjuk yang kamu masukkan akan muncul di sebelah kanan:
 
 ![](screenshots/helper-1.png)
 
-Select one from it and have another try in Wordle:
+pilih salah satu dan masukkan di katla:
 
 ![](screenshots/wordle-2.png)
 
-Then turn to the helper:
+Jika belum sesuai, kembali masukkan di petunjuk katla:
 
 ![](screenshots/helper-2.png)
 
-Okey, you won:
+Selamat, kamu menang:
 
 ![](screenshots/wordle-success.png)
 
 
 
 &nbsp;
+
+## Disclaimer
+
+- Petunjuk katla adalah hasil modifikasi dari [wordle helper](https://github.com/Renovamen/wordle-helper.git)
+- Database KBBI berasal dari [andrisetiawan/lexicon](https://github.com/andrisetiawan/lexicon/blob/master/kata_dasar_kbbi.csv)
 
 ## Development
 

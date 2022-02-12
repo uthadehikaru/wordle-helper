@@ -3,7 +3,7 @@
     class="bg-white text-black fixed max-w-lg h-full w-full top-0 z-20 px-4 sm:px-6 overflow-y-scroll"
   >
     <header class="relative mb-2">
-      <h1 class="text-base font-bold my-2">HOW TO USE</h1>
+      <h1 class="text-base font-bold my-2">PETUNJUK PENGGUNAAN</h1>
       <v-icon
         name="md-close"
         scale="1.2"
@@ -14,43 +14,41 @@
 
     <div class="text-left text-sm border-b border-gray-300 py-3">
       <p>
-        1. Start a
+        1. Mulai permainan
         <a
           class="hyperlink"
-          href="https://www.powerlanguage.co.uk/wordle/"
+          href="https://katla.vercel.app/"
           target="_blank"
-          >Wordle</a
+          >Katla</a
         >
-        puzzle
       </p>
-      <p>2. Guess a word and get Wordle's feedback (green, yellow and gray)</p>
+      <p>2. Tebak sebuah kata dan dapatkan petunjuk jawaban (hijau, kuning, atau abu-abu)</p>
       <p>
-        3. Fill your word in this helper and <b>click each tile</b> to change
-        its state
+        3. Masukkan tebakan kamu disini dan <b>klik tiap huruf</b> untuk mengubah petunjuk jawaban lalu tekan enter
       </p>
       <p>
-        4. Then all possible words would be listed in the sidebar on the right →
+        4. Semua kata yang terkait dengan petunjuk jawaban kamu akan muncul di bagian kanan →
       </p>
-      <p>5. Select one word, go to 2</p>
+      <p>5. Pilih satu kata, lalu kembali ke no 2</p>
     </div>
 
     <div class="text-left text-sm border-b border-gray-300 py-3">
-      <p><b>Change tile state:</b></p>
+      <p><b>Mengubah petunjuk jawaban:</b></p>
       <li class="list-none py-2 flex items-center">
         <div class="tile w-10 h-10 mr-1.5 text-2xl">I</div>
-        : initial
+        : Kondisi Awal
       </li>
       <li class="list-none py-2 flex items-center">
         <div class="tile absent border-none w-10 h-10 mr-1.5 text-2xl">A</div>
-        : click once
+        : klik satu kali
       </li>
       <li class="list-none py-2 flex items-center">
         <div class="tile present border-none w-10 h-10 mr-1.5 text-2xl">P</div>
-        : click twice
+        : klik dua kali
       </li>
       <li class="list-none py-2 flex items-center">
         <div class="tile correct border-none w-10 h-10 mr-1.5 text-2xl">C</div>
-        : click three times
+        : klik tiga kali
       </li>
     </div>
 
@@ -59,9 +57,9 @@
         Github repo:
         <a
           class="hyperlink"
-          href="https://github.com/Renovamen/wordle-helper"
+          href="https://github.com/uthadehikaru/wordle-helper"
           target="_blank"
-          >https://github.com/Renovamen/wordle-helper</a
+          >https://github.com/uthadehikaru/wordle-helper</a
         >
       </p>
     </div>
