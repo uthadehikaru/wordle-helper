@@ -1,6 +1,9 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./styles";
+import { inject } from '@vercel/analytics';
+
+inject();
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
 import {
